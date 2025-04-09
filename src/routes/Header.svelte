@@ -8,10 +8,10 @@
 			<path d="M0,0 L1,2 C1.5,3 1.5,3 2,3 L2,0 Z" />
 		</svg>
 		<ul>
-			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
+			<li aria-current={page.url.pathname === '/reports/local-llm-agents' ? 'page' : undefined}>
 				<a href="/reports/local-llm-agents">Agents</a>
 			</li>
-			<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
+			<li aria-current={page.url.pathname === '/reports/local-inferencing' ? 'page' : undefined}>
 				<a href="/reports/local-inferencing">Inferencing</a>
 			</li>
 			<li aria-current={page.url.pathname === '/about' ? 'page' : undefined}>
